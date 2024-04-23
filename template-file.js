@@ -37,7 +37,7 @@ module.exports = class TemplateFile {
       return this.__template;
     }
 
-    const templater = require('lodash.template');
+    const templater = require('lodash/template');
     return (this.__template = templater(fs.readFileSync(this.path)));
   }
 
