@@ -1,6 +1,6 @@
 {
-  "name": "broccoli-templater",
-  "version": "2.0.2",
+  "name": "@gorner/broccoli-templater",
+  "version": "2.0.3",
   "description": "easily use lodash templates to template many files",
   "main": "index.js",
   "scripts": {
@@ -9,18 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stefanpenner/broccoli-templater"
+    "url": "https://github.com/gorner/broccoli-templater"
   },
   "keywords": [
     "broccoli-plugin",
-    "lodash.template"
+    "lodash"
   ],
   "author": "Stefan Penner <stefan.penner@gmail.com>",
+  "contributors": [
+    "Joshua Gorner"
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stefanpenner/broccoli-templater/issues"
+    "url": "https://github.com/gorner/broccoli-templater/issues"
   },
-  "homepage": "https://github.com/stefanpenner/broccoli-templater",
+  "homepage": "https://github.com/gorner/broccoli-templater",
   "dependencies": {
     "broccoli-plugin": "^1.3.1",
     "fs-tree-diff": "^0.5.9",
